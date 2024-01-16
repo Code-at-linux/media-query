@@ -1,0 +1,29 @@
+@media (min-width:600px) {
+    img{
+        height: 200px;
+        float: left;
+    }
+    .card{
+        width: 45%;
+    }
+    .first{
+        float: left;
+    }
+    .second{
+        float: right;
+    }
+}
+@media (max-width:600px) {
+    img{
+        height: 200px;
+        width: 100%;
+        float: left;
+        object-fit: cover;
+    }
+    .first{
+        display: inline-block;
+    }
+    .second{
+        display: inline-block;
+    }
+}
